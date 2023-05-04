@@ -1,0 +1,9 @@
+body {
+    background: linear-gradient(azure, skyblue, lightblue, blue, darkblue);
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}

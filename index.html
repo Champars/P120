@@ -1,0 +1,84 @@
+<html>
+
+<head>
+    <title>Google Lens vs Mobilenet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <h1>Google Lens or Mobilenet</h1>
+    <label>test image</label>
+    <span>
+                <h3>Google Lens</h3>
+                <label id="gl"></label>
+            </span>
+    <span>
+                <h3>Mobilenet</h3>
+                <label id="mn"></label>
+            </span>
+    <h3>Result</h3>
+    <hr width="75%">
+    <h3 id="result"></h3>
+    <div class="container">
+        <div id="mycarousel0" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <img src="a.jpg">
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <img src="b.jpg">
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <img src="c.jpg">
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <img src="d.jpg">
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <img src="e.jpg">
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <img src="f.jpg">
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <img src="g.jpg">
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <img src="h.jpg">
+                    </center>
+                </div>
+            </div>
+        </div>
+        <a rel="prev" class="left carousel-control" href="#mycarousel0" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a rel="next" class="right carousel-control" href="#mycarousel0" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+    </div>
+</body>
+
+</html>
